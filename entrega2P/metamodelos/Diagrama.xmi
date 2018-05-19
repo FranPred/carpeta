@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsmUML:Diagrama
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dsmUML="dsmUML"
+    xsi:schemaLocation="dsmUML dsmUML.ecore"
+    nombre="prueba">
+  <clases nombre="clase1">
+    <atributos
+        nombre="at1"/>
+  </clases>
+  <clases nombre="clase2">
+    <atributos
+        nombre="at2"
+        tipo="cadena"/>
+  </clases>
+</dsmUML:Diagrama>

@@ -1,0 +1,13 @@
+-- @nsURI uml=dsmUML
+-- @nsURI er=MyER
+
+module uml2ER;
+create OUT : er from IN : uml;
+rule diagrama2esquema {
+	from
+		dia : uml!Diagrama
+	to 
+		es : er!Esquema (
+			Nombre <- dia.nombre
+		)
+}
